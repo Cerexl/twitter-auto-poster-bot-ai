@@ -5,7 +5,7 @@ const APP_KEY = "AP1";
 const APP_SECRET = "AP2";
 const ACCESS_TOKEN = "AP3";
 const ACCESS_SECRET = "AP4";
-const GEMINI_API_KEY = "AP5Y";
+const GEMINI_API_KEY = "AP5";
 
 const SECRETS = {
   APP_KEY,
