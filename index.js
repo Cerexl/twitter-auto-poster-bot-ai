@@ -25,7 +25,7 @@ async function run() {
 
   // Write your prompt here
   const prompt =
-    "generate a web development content, tips and tricks or something new or some rant or some advice as a tweet, it should not be vague and should be unique; under 280 characters and should be plain text, you can use emojis";
+    "“Write short, engaging tweets that spark likes, retweets, and replies in the style of elon musk. Use wit, surprising insights, or thought-provoking questions. Focus on relatability, curiosity, and originality while avoiding clichés.”, it should not be vague and should be unique; under 280 characters and should be plain text, you can use emojis";
 
   const result = await model.generateContent(prompt);
   const response = await result.response;
